@@ -11,6 +11,7 @@ import ContactsPage from 'pages/contactsPage';
 import Home from 'pages/homePage';
 import RegisterPage from 'pages/registerPage';
 import Login from 'pages/loginPage';
+import { Layout } from 'components/AppLayout/layout';
 
 export const App = () => {
   const dispatch = useDispatch();
@@ -24,30 +25,27 @@ export const App = () => {
     <Loader />
   ) : (
     <Routes>
-      <Route path="/" element={<AppBar />}>
+      <Route path="/" element={<Layout />}>
         <Route index element={<Home />} />
         <Route
-          path="/registerPage"
+          path="/register"
           element={
             <RestrictedRoute
-              redirectTo="/contactsPage"
+              redirectTo="/contacts"
               component={<RegisterPage />}
             />
           }
         />
         <Route
-          path="/loginPage"
+          path="/login"
           element={
-            <RestrictedRoute redirectTo="/contactsPage" component={<Login />} />
+            <RestrictedRoute redirectTo="/contacts" component={<Login />} />
           }
         />
         <Route
-          path="/contactsPage"
+          path="/contacts"
           element={
-            <PrivateRoute
-              redirectTo="/loginPage"
-              component={<ContactsPage />}
-            />
+            <PrivateRoute redirectTo="/login" component={<ContactsPage />} />
           }
         />
       </Route>
