@@ -2,7 +2,6 @@ import { useDispatch } from 'react-redux';
 import { Loader } from 'components/Loader/loader';
 import { useEffect } from 'react';
 import { Route, Routes } from 'react-router-dom';
-import { AppBar } from 'components/AppBar/appBar';
 import { PrivateRoute } from 'redux/authorization/privateRoute';
 import { RestrictedRoute } from 'redux/authorization/restrictedRoute';
 import { refreshUser } from 'redux/authorization/operationsAuth';
