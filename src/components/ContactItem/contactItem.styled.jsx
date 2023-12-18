@@ -1,26 +1,30 @@
 import styled from '@emotion/styled';
 
 export const ListItem = styled.li`
+  background-color: #ffffff;
+  padding: 10px;
+  border-radius: 4px;
+  margin-bottom: 5px;
   display: flex;
-  justify-content: space-between;
   align-items: center;
-  width: 400px;
-  height: 30px;
-  padding: 5px;
-  font-size: 14px;
-  font-weight: 500;
-  background-color: lightgrey;
+  justify-content: space-between;
+  font-size: 20px;
 `;
 
 export const RemoveButton = styled.button`
-  width: 70px;
-  height: 30px;
-  border-radius: 10px;
+  padding: 4px 8px;
+  font: inherit;
   cursor: pointer;
-  background-color: red;
-  color: white;
-  font-size: 16px;
-  color: yellow;
+  border-radius: 4px;
+  border: 3px solid blueviolet;
+  display: flex;
+  align-items: center;
+
+  &:hover {
+    background-color: pink;
+  }
 `;
 
-export const ContactData = styled.p``;
+export const ContactData = styled.p`
+  color: black;
+`;

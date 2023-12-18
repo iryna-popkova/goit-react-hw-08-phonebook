@@ -22,13 +22,11 @@ export const Label = styled.label`
 export const Input = styled.input`
   color: black;
   padding: 8px 12px;
-  font: inherit;
   cursor: pointer;
 `;
 
 export const Button = styled.button`
   padding: 8px 12px;
-  font: inherit;
   cursor: pointer;
   border-radius: 4px;
   border: 3px solid pink;

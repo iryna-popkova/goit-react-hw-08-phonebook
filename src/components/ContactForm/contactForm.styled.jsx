@@ -10,18 +10,20 @@ export const FormContainer = styled.div``;
 export const Form = styled(StyledForm)`
   display: flex;
   flex-direction: column;
-  align-items: center;
-  gap: 20px;
-  width: 400px;
+  width: 500px;
+  padding: 12px;
+  border: 3px solid blueviolet;
+  border-radius: 4px;
+  margin: 0 auto;
 `;
 
 export const FormGroup = styled.label`
   display: flex;
   flex-direction: column;
-  gap: 20px;
-  width: 300px;
-  font-size: 18px;
-  font-weight: 600;
+  margin-bottom: 16px;
+  color: lightskyblue;
+  font-size: 20px;
+  font-weight: 500;
 `;
 
 export const ErrorMessage = styled(FormikErrorMessage)`
@@ -30,17 +32,24 @@ export const ErrorMessage = styled(FormikErrorMessage)`
 `;
 
 export const Field = styled(FormFieldStyled)`
-  width: 300px;
-  height: 40px;
-  font-size: 14px;
-  border-radius: 10px;
+  color: black;
+  padding: 8px 12px;
+  font: inherit;
+  cursor: pointer;
 `;
 
 export const Button = styled.button`
-  width: 150px;
-  height: 40px;
-  background-color: yellow;
-  font-size: 18px;
-  border-radius: 10px;
+  padding: 8px 12px;
+  font: inherit;
   cursor: pointer;
+  border-radius: 4px;
+  border: 3px solid lightskyblue;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  &:hover {
+    background-color: pink;
+  }
 `;
