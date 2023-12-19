@@ -14,7 +14,6 @@ export default function ContactsPage() {
 
   return (
     <>
-      <h1>Your contacts</h1>
       <ContactForm />
       <Filter />
       <ContactList />
