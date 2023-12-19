@@ -1,24 +1,24 @@
 {
   "files": {
     "main.css": "/goit-react-hw-08-phonebook/static/css/main.31601a40.css",
-    "main.js": "/goit-react-hw-08-phonebook/static/js/main.0160f727.js",
+    "main.js": "/goit-react-hw-08-phonebook/static/js/main.e308f3e4.js",
     "static/js/706.1a79ec73.chunk.js": "/goit-react-hw-08-phonebook/static/js/706.1a79ec73.chunk.js",
     "static/js/668.3dcdc7a6.chunk.js": "/goit-react-hw-08-phonebook/static/js/668.3dcdc7a6.chunk.js",
     "static/js/548.5073ee5e.chunk.js": "/goit-react-hw-08-phonebook/static/js/548.5073ee5e.chunk.js",
-    "static/js/567.c1e8615e.chunk.js": "/goit-react-hw-08-phonebook/static/js/567.c1e8615e.chunk.js",
+    "static/js/567.3bbe249a.chunk.js": "/goit-react-hw-08-phonebook/static/js/567.3bbe249a.chunk.js",
     "static/js/521.867400ef.chunk.js": "/goit-react-hw-08-phonebook/static/js/521.867400ef.chunk.js",
     "static/media/background.jpg": "/goit-react-hw-08-phonebook/static/media/background.001ad965425165a1d9a2.jpg",
     "index.html": "/goit-react-hw-08-phonebook/index.html",
     "main.31601a40.css.map": "/goit-react-hw-08-phonebook/static/css/main.31601a40.css.map",
-    "main.0160f727.js.map": "/goit-react-hw-08-phonebook/static/js/main.0160f727.js.map",
+    "main.e308f3e4.js.map": "/goit-react-hw-08-phonebook/static/js/main.e308f3e4.js.map",
     "706.1a79ec73.chunk.js.map": "/goit-react-hw-08-phonebook/static/js/706.1a79ec73.chunk.js.map",
     "668.3dcdc7a6.chunk.js.map": "/goit-react-hw-08-phonebook/static/js/668.3dcdc7a6.chunk.js.map",
     "548.5073ee5e.chunk.js.map": "/goit-react-hw-08-phonebook/static/js/548.5073ee5e.chunk.js.map",
-    "567.c1e8615e.chunk.js.map": "/goit-react-hw-08-phonebook/static/js/567.c1e8615e.chunk.js.map",
+    "567.3bbe249a.chunk.js.map": "/goit-react-hw-08-phonebook/static/js/567.3bbe249a.chunk.js.map",
     "521.867400ef.chunk.js.map": "/goit-react-hw-08-phonebook/static/js/521.867400ef.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.31601a40.css",
-    "static/js/main.0160f727.js"
+    "static/js/main.e308f3e4.js"
   ]
 }
