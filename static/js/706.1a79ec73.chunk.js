@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkreact_homework_template=self.webpackChunkreact_homework_template||[]).push([[706],{8706:function(e,t,n){n.r(t),n.d(t,{default:function(){return u}});var c,r=n(168),o=n(1786).Z.h1(c||(c=(0,r.Z)(["\n  font-weight: 800;\n  font-size: 48;\n  text-align: center;\n"]))),a=n(184);function u(){return(0,a.jsx)("div",{children:(0,a.jsx)(o,{children:"Welcome you on contacts service, you can save your favorite contacts here!"})})}}}]);
+//# sourceMappingURL=706.1a79ec73.chunk.js.map
