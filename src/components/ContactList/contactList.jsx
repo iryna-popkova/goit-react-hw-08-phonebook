@@ -2,8 +2,6 @@ import { List } from './contactList.styled';
 import { ContactItem } from '../ContactItem/contactItem';
 import { useSelector } from 'react-redux';
 import { selectContacts, selectFiletrs } from 'redux/selectors';
-import { ContactForm } from 'components/ContactForm/contactForm';
-import { Filter } from 'components/Filter/filter';
 
 export const ContactList = () => {
   const contacts = useSelector(selectContacts);
@@ -26,18 +24,11 @@ export const ContactList = () => {
 
   return (
     <div>
-      <ContactForm />
       <List>
         {filteredContacts.map(({ id, name, number }) => {
           return <ContactItem key={id} id={id} name={name} number={number} />;
         })}
       </List>
-      <Filter />
-      {contacts.length > 0 ? (
-        <ContactList />
-      ) : (
-        <p>There is no contacts in your phonebook!</p>
-      )}
     </div>
   );
 };

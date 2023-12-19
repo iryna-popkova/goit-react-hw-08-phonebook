@@ -1,4 +1,6 @@
 import { ContactList } from 'components/ContactList/contactList';
+import { ContactForm } from 'components/ContactForm/contactForm';
+import { Filter } from 'components/Filter/filter';
 import { useEffect } from 'react';
 import { useDispatch } from 'react-redux';
 import { fetchContacts } from 'redux/operations';
@@ -10,5 +12,12 @@ export default function ContactsPage() {
     dispatch(fetchContacts());
   }, [dispatch]);
 
-  return <ContactList />;
+  return (
+    <>
+      <h1>Your contacts</h1>
+      <ContactForm />
+      <Filter />
+      <ContactList />
+    </>
+  );
 }
